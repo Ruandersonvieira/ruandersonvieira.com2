@@ -18,7 +18,7 @@ export const Container = styled.section`
 `
 
 export const ContainerImg = styled.div`
-  @media ${device.sm} {
+  @media ${device.sx} {
     margin-bottom: 20px;
   }
   @media ${device.lg} {
@@ -36,11 +36,12 @@ export const ContainerProfile = styled.div`
 `
 export const Name = styled.h2`
   font-weight: bold;
+  color: #eb2188;
 `
 
 export const Title = styled.h5`
   font-weight: bold;
-  padding-bottom: 20px;
+  opacity: 0.6;
 `
 
 export const ContainerBiography = styled.div``
@@ -48,10 +49,18 @@ export const ContainerBiography = styled.div``
 export const Biography = styled.p`
   text-indent: 30px;
   line-height: 22px;
+  text-align: justify;
 `
 export const ContainerSkills = styled.div`
   flex-direction: row;
   flex: 1;
   justify-content: space-between;
   align-self: center;
+
+  svg {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    color: #353547;
+  }
 `

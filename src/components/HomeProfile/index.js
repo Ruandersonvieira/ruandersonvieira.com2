@@ -10,6 +10,7 @@ import {
   Title,
   Biography,
   ContainerSkills,
+  ContainerIcon,
 } from "./styles"
 
 import {
@@ -66,16 +67,16 @@ export default function HomeProfile() {
             impactam vidas.
           </Biography>
         </ContainerBiography>
-        <ContainerSkills size={50}>
-          <FaDocker size={50} />
-          <FaNodeJs size={50} />
-          <FaReact size={50} />
-          <FaMobileAlt size={50} />
-          <FaApple size={50} />
-          <FaAndroid size={50} />
-          <FaGithub size={50} />
-          <FaDigitalOcean size={50} />
-          <FaAws size={50} />
+        <ContainerSkills>
+          <FaDocker />
+          <FaNodeJs />
+          <FaReact />
+          <FaMobileAlt />
+          <FaApple />
+          <FaAndroid />
+          <FaGithub />
+          <FaDigitalOcean />
+          <FaAws />
         </ContainerSkills>
       </ContainerProfile>
     </Container>
