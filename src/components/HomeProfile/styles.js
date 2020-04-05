@@ -5,7 +5,7 @@ export const Container = styled.section`
   flex: 1;
   background-color: #f8f8f8;
 
-  @media ${device.mobileL} @media ${device.mobileM} {
+  @media ${device.mobileL} {
     flex-direction: column;
     justify-self: center;
     padding: 100px 50px;

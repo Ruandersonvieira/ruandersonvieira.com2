@@ -24,6 +24,7 @@ export default createGlobalStyle`
     text-decoration: none;
 
     &:hover {
+    color: #eb2188;
     text-decoration: none;
   }
   }
