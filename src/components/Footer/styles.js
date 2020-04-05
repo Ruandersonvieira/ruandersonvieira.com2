@@ -1,24 +1,26 @@
 import styled from "styled-components"
 
 export const FooterContainer = styled.footer`
-  background-color: #080a52;
+  background-color: #353547;
   display: flex;
+  flex: 1;
   justify-content: center;
-  margin: 30px;
+  padding-top: 15px;
 `
 
 export const FooterText = styled.p`
   color: #eb2188;
   display: flex;
-  flex-direction: row;
 `
 
 export const FooterTextBold = styled.p`
   color: #eb2188;
   font-weight: bold;
+  padding-left: 3px;
 `
 
 export const FooterLinkBold = styled.a`
   color: #eb2188;
   font-weight: bold;
+  padding-left: 3px;
 `

@@ -11,10 +11,10 @@ import {
   ViewBottomText,
 } from "./styles"
 
-export default function Card ({ title, description, type, tech, url }) {
+export default function Card({ title, description, type, tech, url }) {
   return (
     <Container>
-      <Img src='https://carloslevir.com/wp-content/uploads/2019/12/Group-25-1024x576.png' />
+      <Img src="https://carloslevir.com/wp-content/uploads/2019/12/Group-25-1024x576.png" />
       <CardContainer>
         <Title>{title}</Title>
         <Badge>

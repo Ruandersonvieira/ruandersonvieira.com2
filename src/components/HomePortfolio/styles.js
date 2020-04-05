@@ -2,22 +2,15 @@ import styled from "styled-components"
 import device from "../../assets/styles/deviceSize"
 
 export const Container = styled.section`
-  @media ${device.mobileL} {
-    padding: 100px 50px;
-  }
-
-  @media ${device.tablet} {
-    padding: 100px 100px;
-  }
-`
-export const TitleDiv = styled.div`
   flex: 1;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  padding: 100px 100px;
 `
+export const TitleDiv = styled.div``
 
 export const Title = styled.h1`
-  color: #080a52;
+  color: #353547;
 `
 
 export const Cards = styled.section`

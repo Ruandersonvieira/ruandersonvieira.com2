@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: column;
-  background-color: #080a52;
+  background-color: #353547;
   padding-top: 30px;
   padding-bottom: 30px;
 `
@@ -21,15 +21,19 @@ export const LogoImg = styled.img`
 `
 
 export const MenuContainer = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: row;
   align-self: center;
 `
 
-export const MenuTitle = styled.h3`
+export const MenuTitle = styled.h5`
   font-weight: bold;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0px 10px;
+
+  &:hover {
+    color: #353547;
+  }
 `
 
 export const MenuOptions = styled(Link)`

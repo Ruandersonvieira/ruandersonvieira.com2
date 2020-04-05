@@ -12,7 +12,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -ms-flex: 1;
     flex: 1;
-    background-color: #080A52;
+    background-color: #353547;
   }
   body, input, button {
     font: 14px Roboto, sans-serif;
@@ -22,6 +22,10 @@ export default createGlobalStyle`
   }
   a {
     text-decoration: none;
+
+    &:hover {
+    text-decoration: none;
+  }
   }
 
   section {

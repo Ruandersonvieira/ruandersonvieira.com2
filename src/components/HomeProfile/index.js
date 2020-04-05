@@ -33,7 +33,7 @@ export default function HomeProfile() {
         <Img src={Ruan} />
       </ContainerImg>
       <ContainerProfile>
-        <Name>Ruanderson Vieira </Name>
+        <Name>Ruanderson Vieira</Name>
         <Title>Full-Stack Developer and IoT Engineer</Title>
         <ContainerBiography>
           <Biography>

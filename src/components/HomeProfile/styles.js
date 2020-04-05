@@ -34,10 +34,12 @@ export const ContainerProfile = styled.div`
   display: flex;
   flex-direction: column;
 `
-export const Name = styled.h2``
+export const Name = styled.h2`
+  font-weight: bold;
+`
 
-export const Title = styled.h4`
-  line-height: 22px;
+export const Title = styled.h5`
+  font-weight: bold;
   padding-bottom: 20px;
 `
 
@@ -46,6 +48,10 @@ export const ContainerBiography = styled.div``
 export const Biography = styled.p`
   text-indent: 30px;
   line-height: 22px;
-  padding-bottom: 15px;
 `
-export const ContainerSkills = styled.div``
+export const ContainerSkills = styled.div`
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-self: center;
+`

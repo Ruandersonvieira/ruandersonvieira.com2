@@ -3,9 +3,9 @@ import React from "react"
 import { Container, TitleDiv, Title, Cards } from "./styles"
 import Card from "../Card"
 
-export default function HomePortfolio () {
+export default function HomePortfolio() {
   return (
-    <Container>
+    <Container className="container-fluid">
       <TitleDiv>
         <Title>Projetos</Title>
       </TitleDiv>

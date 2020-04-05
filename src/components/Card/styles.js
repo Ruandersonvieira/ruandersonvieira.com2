@@ -2,10 +2,10 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const Container = styled.div`
-  background-color: #080a52;
-  height: 20%;
-  width: 20%;
-  margin: 15px;
+  background-color: #353547;
+  /* height: 20%; */
+  /* width: 20%; */
+  /* margin: 15px; */
   border-radius: 20px;
 `
 
@@ -27,14 +27,13 @@ export const Title = styled.h4`
 
 export const Description = styled.h6`
   color: #fff;
-  line-height: 18px;
 `
 
 export const Badge = styled.div`
   display: flex;
   align-self: center;
   justify-content: center;
-  width: 50px;
+  width: 80px;
   border-radius: 6px;
   color: #eb2188;
   border: 1px solid #eb2188;

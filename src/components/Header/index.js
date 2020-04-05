@@ -16,16 +16,16 @@ const Header = () => (
     </LogoContainer>
     <MenuContainer>
       <MenuTitle>
-        <MenuOptions to='/'>Home</MenuOptions>
+        <MenuOptions to="/">Home</MenuOptions>
       </MenuTitle>
       <MenuTitle>
-        <MenuOptions to='/profile'>Perfil</MenuOptions>
+        <MenuOptions to="/profile">Perfil</MenuOptions>
       </MenuTitle>
       <MenuTitle>
-        <MenuOptions to='/projects'>Projetos</MenuOptions>
+        <MenuOptions to="/projects">Projetos</MenuOptions>
       </MenuTitle>
       <MenuTitle>
-        <MenuOptions to='/blog'>Blog</MenuOptions>
+        <MenuOptions to="/blog">Blog</MenuOptions>
       </MenuTitle>
     </MenuContainer>
   </HeaderContainer>
