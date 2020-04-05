@@ -25,15 +25,4 @@ export const Cards = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
-
-  @media ${device.mobileL} {
-    /* flex-direction: row; */
-    /* justify-self: center; */
-    /* padding: 100px 50px; */
-  }
-
-  @media ${device.tablet} {
-    /* flex-direction: row; */
-    /* padding: 100px 100px; */
-  }
 `

@@ -5,23 +5,23 @@ export const Container = styled.section`
   flex: 1;
   background-color: #f8f8f8;
 
-  @media ${device.mobileL} {
+  @media ${device.sx} {
     flex-direction: column;
     justify-self: center;
     padding: 100px 50px;
   }
 
-  @media ${device.tablet} {
+  @media ${device.lg} {
     flex-direction: row;
     padding: 100px 100px;
   }
 `
 
 export const ContainerImg = styled.div`
-  @media ${device.mobileL} {
+  @media ${device.sm} {
     margin-bottom: 20px;
   }
-  @media ${device.laptop} {
+  @media ${device.lg} {
     margin-right: 40px;
   }
 `
