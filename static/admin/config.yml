@@ -14,5 +14,17 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+      - { name: tags, label: Tags }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
+  - name: projects
+    label: Projects
+    folder: content/projects
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: tags, label: Tags }
+      - { name: techs, label: Techs }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
