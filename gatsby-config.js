@@ -3,11 +3,10 @@ module.exports = {
     // edit below
     title: `Ruanderson Vieira`,
     author: `Ruanderson Vieira`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    // description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    // social: {
+    //   twitter: `kylemathews`,
+    // },
   },
   plugins: [
     "gatsby-plugin-catch-links",
