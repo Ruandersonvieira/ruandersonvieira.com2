@@ -15,6 +15,7 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: tags, label: Tags }
+      - { name: image, label: Image, widget: image }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
   - name: projects
@@ -26,5 +27,6 @@ collections:
       - { name: title, label: Title }
       - { name: tags, label: Tags }
       - { name: techs, label: Techs }
+      - { name: image, label: Image, widget: image }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }

@@ -10,7 +10,6 @@ import {
   Title,
   Biography,
   ContainerSkills,
-  ContainerIcon,
 } from "./styles"
 
 import {
