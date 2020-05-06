@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `Ruanderson Vieira`,
     author: `Ruanderson Vieira`,
-    site_url: `https://ruandersonvieira.netlify.app`,
+    siteUrl: `https://ruandersonvieira.netlify.app`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     social: {
       twitter: `ruandersonvieira`,
