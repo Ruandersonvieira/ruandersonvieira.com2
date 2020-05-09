@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "ruandersonvieira.com",
   "private": true,
   "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
   "version": "1.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "author": "Ruanderson Vieira <ruanderson@accalia.io>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -13,7 +13,7 @@
     "babel-plugin-styled-components": "^1.10.0",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.20.12",
-    "gatsby-cli": "^2.12.7",
+    "gatsby-cli": "^2.12.15",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-catch-links": "^2.2.1",
     "gatsby-plugin-feed-mdx": "^1.0.0",
