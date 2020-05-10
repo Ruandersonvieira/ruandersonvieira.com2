@@ -24,7 +24,7 @@ import {
   FaAws,
 } from "react-icons/fa"
 
-import Ruan from "../../assets/images/ruan.jpg"
+import Ruan from "assets/images/ruan.jpg"
 
 export default function HomeProfile() {
   return (

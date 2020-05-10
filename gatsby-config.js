@@ -10,8 +10,8 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-catch-links`,
-    `gatsby-transformer-remark`,
+    "gatsby-plugin-catch-links",
+    "gatsby-transformer-remark",
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
@@ -19,6 +19,14 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        src:`${__dirname}/src`,
+        components:`${__dirname}/src/components`,
+        assets:`${__dirname}/src/assets`,
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -85,6 +93,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
+        // edit below
         icon: `content/assets/ruan-icon.png`,
       },
     },
