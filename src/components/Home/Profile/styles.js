@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import device from "../../assets/styles/deviceSize"
+import device from "assets/styles/deviceSize"
 
 export const Container = styled.section`
   flex: 1;

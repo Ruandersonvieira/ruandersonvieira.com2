@@ -1,7 +1,7 @@
 import React from "react"
 
 import { Container, TitleDiv, Title, Cards } from "./styles"
-import Card from "../Card"
+import Card from "../../Card"
 
 export default function HomePortfolio() {
   return (

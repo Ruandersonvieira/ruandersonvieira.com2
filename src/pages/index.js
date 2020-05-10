@@ -1,15 +1,12 @@
 import React from "react"
 
-import Layout from "../components/Layout"
-import HomeProfile from "../components/HomeProfile"
-import HomePortfolio from "../components/HomePortfolio"
-import HomeBlog from "../components/HomeBlog"
-
-// import SEO from "../components/Seo"
+import Layout from "components/Layout"
+import HomeProfile from "components/Home/Profile"
+import HomePortfolio from "components/Home/Portfolio"
+import HomeBlog from "components/Home/Blog"
 
 const IndexPage = () => (
   <Layout>
-    {/* <SEO title="Home" keywords={[`blog`, `gatsby`, `javascript`, `react`]} /> */}
     <HomeProfile />
     <HomePortfolio />
     <HomeBlog />
