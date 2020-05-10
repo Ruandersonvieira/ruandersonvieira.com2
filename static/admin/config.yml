@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Ruandersonvieira/ruandersonvieira.com
 
-media_folder: static/assets
+media_folder: content/assets
 public_folder: assets
 
 collections:
