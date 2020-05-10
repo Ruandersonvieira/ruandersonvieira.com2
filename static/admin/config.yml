@@ -1,8 +1,8 @@
 backend:
-  name: github
-  repo: Ruandersonvieira/ruandersonvieira.com
+  # name: github
+  # repo: Ruandersonvieira/ruandersonvieira.com
 
-media_folder: static/assets
+media_folder: content/assets
 public_folder: assets
 
 collections:
@@ -10,23 +10,49 @@ collections:
     label: Blog
     folder: content/blog
     create: true
+    slug: '{{day}}-{{month}}-{{year}}--{{slug}}'
     fields:
-      - { name: path, label: Path }
+      - { name: slug, label: slug, widget: 'string' }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: tags, label: Tags }
-      - { name: image, label: Image, widget: image }
+      - {
+        label: 'Category',
+        name: 'category',
+        widget: 'relation',
+        collection: 'categories',
+        searchFields: ['title'],
+        valueField: 'category',
+      }
+      - { name: banner, label: Banner, widget: banner }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
   - name: projects
     label: Projects
     folder: content/projects
     create: true
+    slug: '{{day}}-{{month}}-{{year}}--{{slug}}'
     fields:
-      - { name: path, label: Path }
+      - { name: slug, label: slug, widget: 'string' }
       - { name: title, label: Title }
       - { name: tags, label: Tags }
       - { name: techs, label: Techs }
-      - { name: image, label: Image, widget: image }
+      - { name: banner, label: Banner, widget: banner }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+
+  - name: 'categories'
+    label: 'Categories (PT)'
+    folder: 'content/categories/pt'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template',
+          name: 'template',
+          widget: 'hidden',
+          default: 'categories',
+        }
+      - { label: 'Category name', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Color', name: 'color', widget: 'string' }
