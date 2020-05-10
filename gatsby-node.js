@@ -7,23 +7,23 @@
 //   const blogPost = path.resolve(`./src/templates/blog-post.js`)
 //   return graphql(
 //     `
-//       {
-//         allMdx(
-//           sort: { fields: [frontmatter___date], order: DESC }
-//           limit: 1000
-//         ) {
-//           edges {
-//             node {
-//               fields {
-//                 slug
-//               }
-//               frontmatter {
-//                 title
-//               }
-//             }
-//           }
-//         }
-//       }
+      // {
+      //   allMdx(
+      //     sort: { fields: [frontmatter___date], order: DESC }
+      //     limit: 1000
+      //   ) {
+      //     edges {
+      //       node {
+      //         fields {
+      //           slug
+      //         }
+      //         frontmatter {
+      //           title
+      //         }
+      //       }
+      //     }
+      //   }
+      // }
 //     `
 //   ).then(result => {
 //     if (result.errors) {
