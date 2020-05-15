@@ -63,4 +63,8 @@ export const ContainerSkills = styled.div`
     height: 50px;
     color: #353547;
   }
+
+  svg:hover {
+    color: #eb2188;
+  }
 `

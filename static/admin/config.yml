@@ -53,5 +53,5 @@ collections:
           widget: hidden,
           default: categories,
         }
-      - { label: Category name, name: title, widget: string }
+      - { label: name, name: title, widget: string }
       - { label: Description, name: description, widget: string }
