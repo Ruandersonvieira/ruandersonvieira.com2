@@ -29,7 +29,7 @@ function HomeBlog() {
     <Container>
       <Title>Blog</Title>
       <Cards>
-        {posts.map(({node: {frontmatter :{title,date,description }}}) => (
+        {posts.map(({ node: {frontmatter :{title,date,description }}}) => (
           <BlogCard
             key={title}
             blogTitle={title}

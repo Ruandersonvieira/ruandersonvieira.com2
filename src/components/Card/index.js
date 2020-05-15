@@ -17,9 +17,9 @@ export default function Card({ title, description, type, tech, url }) {
       <Img src="https://carloslevir.com/wp-content/uploads/2019/12/Group-25-1024x576.png" />
       <CardContainer>
         <Title>{title}</Title>
-        <Badge>
+        {/* <Badge>
           <BadgeText>{type}</BadgeText>
-        </Badge>
+        </Badge> */}
         <Description>{description}</Description>
         <ViewBottom to={url}>
           <ViewBottomText>Ver Mais</ViewBottomText>

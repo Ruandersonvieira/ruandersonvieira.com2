@@ -3,9 +3,6 @@ import { Link } from "gatsby"
 
 export const Container = styled.div`
   background-color: #353547;
-  /* height: 20%; */
-  /* width: 20%; */
-  /* margin: 15px; */
   border-radius: 20px;
 `
 
@@ -20,27 +17,27 @@ export const CardContainer = styled.div`
   margin: 10px;
 `
 
-export const Title = styled.h4`
+export const Title = styled.h5`
   color: #eb2188;
   line-height: 24px;
 `
 
-export const Description = styled.h6`
+export const Description = styled.p`
   color: #fff;
 `
 
 export const Badge = styled.div`
   display: flex;
-  align-self: center;
   justify-content: center;
-  width: 80px;
+  width: 70px;
   border-radius: 6px;
-  color: #eb2188;
   border: 1px solid #eb2188;
 `
 
 export const BadgeText = styled.h6`
-  /* color: #eb2188; */
+  color: #eb2188;
+  margin-bottom: 0px;
+  padding: 3px;
 `
 
 export const ViewBottom = styled(Link)`
@@ -50,6 +47,6 @@ export const ViewBottom = styled(Link)`
   justify-content: center;
 `
 
-export const ViewBottomText = styled.h5`
+export const ViewBottomText = styled.h6`
   color: #eb2188;
 `

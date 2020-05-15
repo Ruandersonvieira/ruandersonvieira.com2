@@ -4,19 +4,18 @@ export const Container = styled.section`
   flex: 1;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 100px 100px;
 `
-export const TitleDiv = styled.div``
+export const TitleDiv = styled.div`
+  padding-bottom: 50px;
+`
 
 export const Title = styled.h1`
   color: #353547;
 `
 
 export const Cards = styled.section`
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
-
   width: 90%;
   max-width: 980px;
   margin: auto;
